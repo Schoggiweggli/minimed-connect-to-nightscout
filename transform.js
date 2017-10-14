@@ -15,7 +15,7 @@ var CARELINK_TREND_TO_NIGHTSCOUT_TREND = {
   'DOWN_DOUBLE': {'trend': 7, 'direction': 'DoubleDown'}
 };
 
-function parsePumpTime(pumpTimeString, offset) {
+function parsePumpTime(timestamp, offset) {
   return Date.parse(timestamp);
 }
 
